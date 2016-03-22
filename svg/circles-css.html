@@ -6,19 +6,25 @@
     <title>Circles</title>
 
     <style>
+
+	
       .circle1 {
-        fill: red;
+        fill: #98d4d5;
       }
 
       .circle2 {
-        fill: green;
+        fill: #e0cd66;
       }
 
       .circle3 {
-        fill: blue;
+        fill: #d76936;
       }
 
-      .circle1, .circle2, .circle3 {
+      .circle4 {
+        fill: #C0C0C0 ;
+      }	  
+	  
+      .circle1, .circle3 {
         opacity: 0.5;
       }
 
@@ -34,10 +40,39 @@
   </head>
   
   <body>
-    <svg width="500" height="400">
-      <circle class="circle1" cx="150" cy="200" r="150" />
-      <circle class="circle2" cx="250" cy="200" r="150" />
-      <circle class="circle3" cx="350" cy="200" r="150" />
+    <svg width="700" height="700">
+	  <rect width="600" height="600" style="fill:#f5ede0;" />
+	
+	  <text x="10" y="50" font-size = "24" fill=#98d4d5>People and Things</text>
+	  
+	  <line x1="0" y1="58" x2="600" y2="58" style="stroke:#98d4d5;stroke-width:2" />
+	  
+	  <text x="10" y="80" font-size = "24" fill=#d76936>Jack's Mannequin</text>
+	  
+      <circle class="circle2" cx="300" cy="300" r="150" />
+	  
+	  <circle class="circle1" cx="200" cy="300" r="150" />
+	       
+	  <circle class="circle3" cx="400" cy="300" r="150" />
+	  
+	  <circle class="circle4" cx="300" cy="100" r="10" />
+	  
+	  <line x1="300" y1="110" x2="295" y2="150" style="stroke:#C0C0C0 ;stroke-width:2" />
+
+	  <line x1="297" y1="130" x2="308" y2="150" style="stroke:#C0C0C0 ;stroke-width:2" />
+	  
+	  <line x1="310" y1="130" x2="300" y2="110" style="stroke:#C0C0C0 ;stroke-width:2" />
+	  
+	  <line x1="300" y1="110" x2="290" y2="130" style="stroke:#C0C0C0 ;stroke-width:2" />
+	  	  
+	  <line x1="470" y1="300" x2="500" y2="300" style="stroke:rgb(255,255,255);stroke-width:2" />
+	  
+	  <line x1="475" y1="290" x2="495" y2="310" style="stroke:rgb(255,255,255);stroke-width:2" />
+	  
+	  <line x1="485" y1="285" x2="485" y2="315" style="stroke:rgb(255,255,255);stroke-width:2" />
+	  
+	  <line x1="475" y1="310" x2="495" y2="290" style="stroke:rgb(255,255,255);stroke-width:2" />
+	  
     </svg>
   </body>
 </html>
